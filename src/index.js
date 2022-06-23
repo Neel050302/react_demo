@@ -7,7 +7,7 @@ const lname= "lodhiya";
 /* only use expression not use statement */
 
 ReactDOM.render(<>
-  <h1>My name is {fname} and my family name is {lname} </h1>
+  <h1>{`My name is ${fname}  ${lname}`} </h1>
   <p> add of two number {2+3}</p> 
 </>
 
