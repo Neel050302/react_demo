@@ -2,16 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+const fname = "neel";
+const lname= "lodhiya";
+/* only use expression not use statement */
+
 ReactDOM.render(<>
-<h1>Neel Lodhiya's fav 5 series</h1>
-<p>My List: </p>
-<ol>
-  <li>DARK</li>
-  <li>VAMPIRE DARIES</li>
-  <li>MONEY HEIST</li>
-  <li>LUCIFER</li>
-  <li>PEAKY BLINDER</li>
-</ol>
+  <h1>My name is {fname} and my family name is {lname} </h1>
+  <p> add of two number {2+3}</p> 
 </>
 
 , document.getElementById("root"));
