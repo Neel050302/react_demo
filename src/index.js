@@ -4,11 +4,14 @@ import './index.css';
 
 const fname = "neel";
 const lname= "lodhiya";
+const date = new Date().toLocaleDateString();
+const time = new Date().toLocaleTimeString();
 /* only use expression not use statement */
 
 ReactDOM.render(<>
   <h1>{`My name is ${fname}  ${lname}`} </h1>
-  <p> add of two number {2+3}</p> 
+  <p>{`Today's Date: ${date} `}</p>
+  <p>{`Time: ${time}`}</p>
 </>
 
 , document.getElementById("root"));
