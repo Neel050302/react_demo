@@ -8,9 +8,14 @@ const date = new Date().toLocaleDateString();
 const time = new Date().toLocaleTimeString();
 /* only use expression not use statement */
 
+
+
+
 ReactDOM.render(<>
-<div className='name_header'>
-  <h1>{`My name is ${fname}  ${lname}`} </h1>
+<div >
+  <h1 style={{fontStyle: 'italic',
+  color: 'blue',
+  textAlign: 'center'}}>{`My name is ${fname}  ${lname}`} </h1>
 </div>
   
 <div className='image_div'>
