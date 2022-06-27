@@ -9,12 +9,16 @@ const time = new Date().toLocaleTimeString();
 /* only use expression not use statement */
 
 ReactDOM.render(<>
-  <h1 contentEditable="true">{`My name is ${fname}  ${lname}`} </h1>
-  <p>{`Today's Date: ${date} `}</p>
-  <p>{`Time: ${time}`}</p>
-  <img src="https://picsum.photos/210/300"  alt="img"/>
-  <img src="https://picsum.photos/220/300"  alt="img"/>
-  <img src="https://picsum.photos/230/300"  alt="img"/>
+<div className='name_header'>
+  <h1>{`My name is ${fname}  ${lname}`} </h1>
+</div>
+  
+<div className='image_div'>
+<img src="https://picsum.photos/210/300" className='image_div'alt="img"/>
+  <img src="https://picsum.photos/220/300" className='image_div' alt="img"/>
+  <img src="https://picsum.photos/230/300" className='image_div' alt="img"/>
+</div>
+
 </>
 
 , document.getElementById("root"));
