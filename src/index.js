@@ -13,8 +13,10 @@ if(time >=1 && time<12){
   cssStyle.color = 'green';
 }else if(time>=12 && time<20){
   greeting ='good afternoon';
+  cssStyle.color = 'orange';
 }else{
   greeting ='good evening';
+  cssStyle.color = 'black';
 }
 ReactDOM.render(<>
 <div className='main'>
